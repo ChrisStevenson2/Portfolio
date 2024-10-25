@@ -30,7 +30,7 @@ p {
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted #6897bb 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
@@ -129,4 +129,21 @@ a:hover {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 10px;
+    }
+}
+.container {
+    width: 100%;
+    max-width: 1200px; /* Optional: to limit width on larger screens */
+}
+
+img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
 }
